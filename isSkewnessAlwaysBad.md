@@ -26,4 +26,8 @@ http://oak.ucc.nau.edu/rh232/courses/eps625/handouts/data%20transformation%20han
 	- https://stats.stackexchange.com/questions/107610/what-is-the-reason-the-log-transformation-is-used-with-right-skewed-distribution
 	- https://becominghuman.ai/how-to-deal-with-skewed-dataset-in-machine-learning-afd2928011cc
 	- https://www.google.com/search?client=ubuntu&hs=fjq&channel=fs&q=how+skewness+effect+machine+learning+models&spell=1&sa=X&ved=0ahUKEwi38o2V1P7ZAhVCh1QKHcbPDgMQBQgmKAA&biw=1855&bih=959
-	- 
+	- https://www.quora.com/What-are-assumptions-for-classification-algorithms
+	- http://www.fusioninvesting.com/2010/09/what-is-skew-and-why-is-it-important/
+	- http://www.styleadvisor.com/resources/statfacts/skewness
+	- http://fmwww.bc.edu/repec/bocode/t/transint.html
+	

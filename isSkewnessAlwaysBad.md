@@ -20,3 +20,10 @@ http://oak.ucc.nau.edu/rh232/courses/eps625/handouts/data%20transformation%20han
 * source https://stats.stackexchange.com/questions/267078/why-is-skewed-data-not-preferred-for-modelling
 	- When removing skewness, transformations are attempting to make the dataset follow the Gaussian distribution. The reason is simply that if the dataset can be transformed to be statistically close enough to a Gaussian dataset, then the largest set of tools possible are available to them to use. Tests such as the ANOVA, t-test, F-test, and many others depend on the data having constant variance (σ2) or follow a Gaussian distribution.
 	- In decision trees I'll first point one thing: there's no point on transforming skewed explanatory variables, monotonic functions won't change a thing; this can be usefull on linear models, but's not on decision trees. This said, CART models use analysis of variance to perform spits, and variance is very sensible to outliers and skewed data, this is the reason why transforming your response variable can considerably improve your model accuracy.
+
+
+* not finishing reading
+	- https://stats.stackexchange.com/questions/107610/what-is-the-reason-the-log-transformation-is-used-with-right-skewed-distribution
+	- https://becominghuman.ai/how-to-deal-with-skewed-dataset-in-machine-learning-afd2928011cc
+	- https://www.google.com/search?client=ubuntu&hs=fjq&channel=fs&q=how+skewness+effect+machine+learning+models&spell=1&sa=X&ved=0ahUKEwi38o2V1P7ZAhVCh1QKHcbPDgMQBQgmKAA&biw=1855&bih=959
+	- 

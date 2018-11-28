@@ -1,7 +1,11 @@
 ## Logistic Regression
 
 Links:
-http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+* http://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+
+* https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/
+
+* 
 
 
 Logistic regression is also known in the literature as logit regression,

@@ -16,15 +16,37 @@ http://oak.ucc.nau.edu/rh232/courses/eps625/handouts/data%20transformation%20han
 
 * from wikipedia https://en.wikipedia.org/wiki/Data_transformation_(statistics)
 	- Transforms are usually applied so that the data appear to more closely meet the assumptions of a statistical inference procedure that is to be applied, or to improve the interpretability or appearance of graphs
+	- in the wikipedia page, the example describe a good effect of how the independent variable change can affects the dependent variable.
 
-* source https://stats.stackexchange.com/questions/267078/why-is-skewed-data-not-preferred-for-modelling
+* source
+	- https://stats.stackexchange.com/questions/267078/why-is-skewed-data-not-preferred-for-modelling
+
+	- https://www.itl.nist.gov/div898/handbook/eda/section3/6plot.htm
+
 	- When removing skewness, transformations are attempting to make the dataset follow the Gaussian distribution. The reason is simply that if the dataset can be transformed to be statistically close enough to a Gaussian dataset, then the largest set of tools possible are available to them to use. Tests such as the ANOVA, t-test, F-test, and many others depend on the data having constant variance (σ2) or follow a Gaussian distribution.
+
+	- For a good model, the error component should behave like:
+		- random drawings(independent)
+		- from a fixed distribution
+		- with fixed location
+		- with fixed variation
+
 	- In decision trees I'll first point one thing: there's no point on transforming skewed explanatory variables, monotonic functions won't change a thing; this can be usefull on linear models, but's not on decision trees. This said, CART models use analysis of variance to perform spits, and variance is very sensible to outliers and skewed data, this is the reason why transforming your response variable can considerably improve your model accuracy.
 
 
 * not finishing reading
 	- https://stats.stackexchange.com/questions/107610/what-is-the-reason-the-log-transformation-is-used-with-right-skewed-distribution
+
+		- in this post, one of the answer say that the transformation can put the skewed data into the form of one unit increase in X, means one percet increase in Y. If this is the case, then we can do the transformation
 	- https://becominghuman.ai/how-to-deal-with-skewed-dataset-in-machine-learning-afd2928011cc
+		- http://fmwww.bc.edu/repec/bocode/t/transint.html
+
+		- http://statisticsbyjim.com/regression/ols-linear-regression-assumptions/
+		
+		- The residuals should be normally distributed. If the maximum likelihood method (not OLS) is used to compute the estimates, this also implies the Y and the Xs are also normally distributed.
+		http://r-statistics.co/Assumptions-of-Linear-Regression.html
+
+		- 
 	- https://www.google.com/search?client=ubuntu&hs=fjq&channel=fs&q=how+skewness+effect+machine+learning+models&spell=1&sa=X&ved=0ahUKEwi38o2V1P7ZAhVCh1QKHcbPDgMQBQgmKAA&biw=1855&bih=959
 	- https://www.quora.com/What-are-assumptions-for-classification-algorithms
 	- http://www.fusioninvesting.com/2010/09/what-is-skew-and-why-is-it-important/

@@ -6,5 +6,6 @@ Try to understand this part of the story
 ## Bias Variance of dataset
 
 ## Bias Variance of estimator ( model )
+* in random forest and booting models, how adding trees influence the bias and variance
 
 ## Bias Variance of Cross Validation

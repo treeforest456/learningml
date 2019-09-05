@@ -6,3 +6,4 @@ Hope this could turn into some good resource look-up places
 ## Topic list
 * [is skewness always bad](/isSkewnessAlwaysBad.md)
 * [parametric machine learning algos and non-parametric algos](/parametricAndNon.md)
+* [Logistic Regression](/logisticRegression.md)
